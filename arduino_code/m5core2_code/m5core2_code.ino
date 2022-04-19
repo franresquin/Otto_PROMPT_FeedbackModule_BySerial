@@ -318,6 +318,6 @@ void loop() {
       serial_feedback_msg(error_flg, serial_buff, bytes_read);
     }
 
-    update_screen(error_flg==0);
+    //update_screen(error_flg==0);
 
 }
